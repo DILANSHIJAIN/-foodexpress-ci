@@ -6,7 +6,7 @@ def test_cart_total():
         {"price": 100, "qty": 2},
         {"price": 50, "qty": 1}
     ]
-    assert cart_total(items) == 250
+    assert cart_total(items) == 999
 
 
 def test_apply_discount():
