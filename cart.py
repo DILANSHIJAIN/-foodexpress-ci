@@ -8,3 +8,4 @@ def apply_discount(total, percent):
         raise ValueError("percent must be between 0 and 100")
     return total - (total * percent / 100)
 print('feature work')
+# Main branch change
